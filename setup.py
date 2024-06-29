@@ -7,8 +7,8 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 __version__ = "1.0.0"
 REPO_NAME = "mongodbconnecterpackage"
-PKG_NAME= "mongoautomation"
-AUTHOR_USER_NAME = "mahesh"
+PKG_NAME= "mautomation_mondb"
+AUTHOR_USER_NAME = "maheshsree"
 AUTHOR_EMAIL = "maheshsree98@gmail.com"
 
 setup(
