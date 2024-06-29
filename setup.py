@@ -18,7 +18,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()     
    
 
-__version__ = "0.0.5"
+__version__ = "0.0.6"
 REPO_NAME = "mongodbconnecterpackage"
 PKG_NAME= "databaseautomation"
 AUTHOR_USER_NAME = "mahesh"
@@ -40,3 +40,5 @@ setup(
     packages=find_packages(where="src"),
     install_requires=get_requirements('./requirements_dev.txt')
     )
+
+
