@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()     
    
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 REPO_NAME = "mongodbconnecterpackage"
 PKG_NAME= "mautomation_mondb"
 AUTHOR_USER_NAME = "maheshsree"
@@ -27,6 +27,7 @@ setup(
     packages=find_packages(where="src"),
     install_requires=["pymongo","pymongo[srv]","dnspython","pandas","numpy","ensure","pytest"]
     )
+
 
 
 
